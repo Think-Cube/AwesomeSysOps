@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/awesome-sysadmin/badge/?version=latest)](https://awesome-sysadmin.readthedocs.io/en/latest/?badge=latest)
+
 # Awesome-SysAdmin
 A curated list of amazingly awesome open source sysadmin resources.
 
