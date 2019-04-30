@@ -1,8 +1,5 @@
-[![Documentation Status](https://readthedocs.org/projects/awesome-sysadmin/badge/?version=latest)](https://awesome-sysadmin.readthedocs.io/en/latest/?badge=latest)
-
 # Awesome-SysAdmin
 A curated list of amazingly awesome open source sysadmin resources.
-
 
 ## Table of Contents
 * [Awesome Sysadmin](#awesome-sysadmin)
@@ -762,7 +759,3 @@ Various resources, such as books, websites and articles, for improving your skil
 
 * [Ops School](http://www.opsschool.org) - Comprehensive program that will help you learn to be an operations engineer.
 * [Digital Ocean Tutorials](https://www.digitalocean.com/community/tutorials) - A surprisingly vast resource for getting the basics of certain applications, tools, or even systems administration topics.
-
-## License
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
