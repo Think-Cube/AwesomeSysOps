@@ -1,8 +1,9 @@
-# Awesome-SysAdmin
-A curated list of amazingly awesome open source sysadmin resources.
+# AwesomeSysOps
+
+Explore a curated list of open source sysadmin resources in this comprehensive repository. From backups and build automation to security and virtualization, find a collection of amazing tools and solutions to streamline and enhance your system administration tasks. The repository is organized into categories for easy navigation, making it a valuable reference for sysadmins looking for reliable and efficient resources.
 
 ## Table of Contents
-* [Awesome Sysadmin](#awesome-sysadmin)
+* [AwesomeSysOps](#AwesomeSysOps)
   * [Backups](#backups)
   * [Build Automation](#build-automation)
   * [ChatOps](#chatops)
