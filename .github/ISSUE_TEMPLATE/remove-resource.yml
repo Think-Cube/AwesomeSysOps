@@ -1,0 +1,34 @@
+name: Remove Resource
+description: Report an entry that should be removed (abandoned, deprecated, broken link)
+title: "Remove: "
+labels: ["remove", "triage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Tool / Resource Name
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for removal
+      options:
+        - Abandoned / unmaintained (no activity for 2+ years)
+        - Deprecated (official deprecation notice)
+        - Security vulnerability (unpatched)
+        - Broken link
+        - Duplicate of another entry
+        - Out of scope
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Provide evidence or context for the removal request.
+    validations:
+      required: true
