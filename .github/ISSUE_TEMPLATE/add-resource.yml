@@ -1,0 +1,56 @@
+name: Add Resource
+description: Suggest a new tool or resource for the list
+title: "Add: "
+labels: ["add", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a resource! Please fill in the details below.
+
+  - type: input
+    id: name
+    attributes:
+      label: Tool / Resource Name
+      placeholder: e.g. Portainer
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link to official docs or GitHub repository
+      placeholder: https://
+    validations:
+      required: true
+
+  - type: input
+    id: category
+    attributes:
+      label: Category
+      description: Which existing category does this belong to? Or suggest a new one.
+      placeholder: e.g. Software Containers
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: One-line description
+      description: A concise description (max 120 chars). Start with lowercase letter, end with period.
+      placeholder: "container management UI for Docker, Kubernetes, and more."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Criteria
+      options:
+        - label: Actively maintained (last commit within 12 months or widely stable project)
+          required: true
+        - label: Well documented
+          required: true
+        - label: Not already in the list
+          required: true
